@@ -1,31 +1,93 @@
-# Cyberlab
-Prácticas de Ciberseguridad en entorno virtual con Nmap, Wireshark y Metasploit.
+# CyberLab – Laboratorio de Ciberseguridad
 
-# Laboratorio de Ciberseguridad – VirtualBox + Kali Linux
-Este laboratorio demuestra instalación y configuración de Kali Linux en VirtualBox, escaneo de red con Nmap, análisis de tráfico con Wireshark y pruebas básicas con Metasploit.
+Repositorio que documenta prácticas de ciberseguridad realizadas en un entorno virtual utilizando VirtualBox y Kali Linux.  
+Incluye análisis de red, escaneo de puertos, captura de tráfico y pruebas básicas en entorno controlado con herramientas como Nmap, Wireshark y Metasploit.
 
-## Objetivos
-- Montar entorno virtual
-- Escanear red con Nmap
-- Analizar tráfico con Wireshark
-- Realizar pruebas controladas con Metasploit
+---
 
-## Requisitos
+## Objetivos del laboratorio
+
+- Implementar un entorno virtual seguro para pruebas.
+- Realizar escaneo de puertos y detección de servicios.
+- Analizar tráfico de red.
+- Ejecutar pruebas básicas de explotación en entorno controlado.
+- Documentar hallazgos técnicos.
+
+---
+
+## Herramientas utilizadas
+
 - VirtualBox
 - Kali Linux
-- Wireshark
 - Nmap
+- Wireshark
 - Metasploit
 
-## Pasos del laboratorio
-1. Instalación de Kali Linux en VirtualBox
-2. Configuración de red
-3. Escaneo básico de puertos con Nmap
-4. Captura de tráfico con Wireshark
-5. Ejemplos de uso de Metasploit
+---
+
+## Configuración del entorno
+
+1. Instalación de VirtualBox.
+2. Creación de máquina virtual con Kali Linux.
+3. Configuración de red en modo NAT / Adaptador Puente.
+4. Verificación de conectividad entre máquinas.
+
+---
+
+## Escaneo de red con Nmap
+
+Ejemplo de comando utilizado:
+nmap -sV -p 1-65535 192.168.56.101
+
+Descripción:
+- `-sV` → Detecta versión de servicios.
+- `-p 1-65535` → Escanea todos los puertos.
+- IP objetivo → Máquina dentro del entorno virtual.
+
+Objetivo:
+Identificar puertos abiertos y servicios activos para análisis posterior.
+
+---
+
+## Análisis de tráfico con Wireshark
+
+- Captura de paquetes en la interfaz de red virtual.
+- Filtrado por protocolos (TCP, HTTP, DNS).
+- Análisis de handshakes TCP y tráfico sospechoso.
+
+Objetivo:
+Comprender cómo viajan los datos en la red y detectar posibles anomalías.
+
+---
+
+## Pruebas controladas con Metasploit
+
+- Exploración de módulos disponibles.
+- Ejecución de pruebas en entorno aislado.
+- Análisis del comportamiento del sistema objetivo.
+
+Objetivo:
+Comprender el funcionamiento básico de herramientas de explotación en un entorno seguro.
+
+---
 
 ## Resultados
-Explicación de lo que se observó en cada herramienta.
+
+- Identificación de puertos abiertos y servicios activos.
+- Análisis de tráfico de red y comprensión de protocolos.
+- Comprensión básica del proceso de enumeración y explotación.
+
+---
 
 ## Conclusión
-Lo que aprendí y por qué es útil en ciberseguridad.
+
+Este laboratorio permitió adquirir experiencia práctica en análisis de red, escaneo de vulnerabilidades y uso de herramientas fundamentales en ciberseguridad.  
+El proyecto refuerza conocimientos aplicables a roles de Analista SOC Junior o posiciones Trainee en Seguridad Informática.
+
+---
+
+## Próximos pasos
+
+- Automatización de escaneos básicos.
+- Implementación de laboratorio con múltiples máquinas.
+- Análisis de logs y simulación de incidentes.
