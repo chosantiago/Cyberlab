@@ -95,4 +95,4 @@ El proyecto refuerza conocimientos aplicables a roles de Analista SOC Junior o p
 
 ## Evidencia Nmap
 
-![Nmap Scan](nmap full scan.png)
+![Nmap Scan](nmap%20full%20scan.png)
