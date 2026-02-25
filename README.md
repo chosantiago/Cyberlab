@@ -103,4 +103,4 @@ El proyecto refuerza conocimientos aplicables a roles de Analista SOC Junior o p
 
 ### Enumeración de servicios
 
-![Nmap Service Enumeration](evidencias/nmap_service_enumeration.png)
+![Nmap Service Enumeration](evidencias/nmap_service_focus.png)
