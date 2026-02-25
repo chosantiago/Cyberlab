@@ -93,6 +93,12 @@ El proyecto refuerza conocimientos aplicables a roles de Analista SOC Junior o p
 - Análisis de logs y simulación de incidentes.
 
 
-## Evidencia Nmap
+## Evidencia – Escaneo con Nmap
 
-![Nmap Scan](nmap%20full%20scan.png)
+### Escaneo completo
+
+![Nmap Full Scan](evidencias/nmap_full_scan.png)
+
+### Enumeración de servicios
+
+![Nmap Service Enumeration](evidencias/nmap_service_enumeration.png)
