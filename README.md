@@ -29,7 +29,7 @@ Incluye análisis de red, escaneo de puertos, captura de tráfico y pruebas bás
 
 1. Instalación de VirtualBox.
 2. Creación de máquina virtual con Kali Linux.
-3. Configuración de red en modo NAT / Adaptador Puente.
+3. Configuración de red en modo Host-Only (entorno aislado).
 4. Verificación de conectividad entre máquinas.
 
 ---
@@ -95,6 +95,10 @@ El proyecto refuerza conocimientos aplicables a roles de Analista SOC Junior o p
 - Análisis de logs y simulación de incidentes.
 
 
+## Evidencia – Prueba de conectividad
+
+![Connectivity Test](evidencias/connectivity_test.png)
+
 ## Evidencia – Escaneo con Nmap
 
 ### Escaneo completo
@@ -104,3 +108,11 @@ El proyecto refuerza conocimientos aplicables a roles de Analista SOC Junior o p
 ### Enumeración de servicios
 
 ![Nmap Service Enumeration](evidencias/nmap_service_focus.png)
+
+## Evidencia – Análisis con Wireshark
+
+![Wireshark Traffic](evidencias/wireshark_traffic_analysis.png)
+
+## Evidencia – Reconocimiento con Metasploit
+
+![Metasploit Search](evidencias/metasploit_module_search.png)
