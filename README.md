@@ -91,3 +91,8 @@ El proyecto refuerza conocimientos aplicables a roles de Analista SOC Junior o p
 - Automatización de escaneos básicos.
 - Implementación de laboratorio con múltiples máquinas.
 - Análisis de logs y simulación de incidentes.
+
+
+## Evidencia Nmap
+
+![Nmap Scan](nmap_full_scan.png)
