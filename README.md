@@ -1,5 +1,6 @@
 # CyberLab – Laboratorio de Ciberseguridad
 
+Todas las pruebas fueron realizadas en un entorno virtual aislado (Host-Only Network) con fines exclusivamente educativos.
 Repositorio que documenta prácticas de ciberseguridad realizadas en un entorno virtual utilizando VirtualBox y Kali Linux.  
 Incluye análisis de red, escaneo de puertos, captura de tráfico y pruebas básicas en entorno controlado con herramientas como Nmap, Wireshark y Metasploit.
 
@@ -10,8 +11,7 @@ Incluye análisis de red, escaneo de puertos, captura de tráfico y pruebas bás
 - Implementar un entorno virtual seguro para pruebas.
 - Realizar escaneo de puertos y detección de servicios.
 - Analizar tráfico de red.
-- Ejecutar pruebas básicas de explotación en entorno controlado.
-- Documentar hallazgos técnicos.
+- Evaluar vulnerabilidades en entorno controlado y documentar hallazgos.
 
 ---
 
@@ -37,7 +37,9 @@ Incluye análisis de red, escaneo de puertos, captura de tráfico y pruebas bás
 ## Escaneo de red con Nmap
 
 Ejemplo de comando utilizado:
+```bash
 nmap -sV -p 1-65535 192.168.56.101
+```
 
 Descripción:
 - `-sV` → Detecta versión de servicios.
